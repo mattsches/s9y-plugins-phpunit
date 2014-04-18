@@ -6,9 +6,9 @@ Files to enable unit testing Serendipity plugins using [PHPUnit](https://github.
 
 This has been tested with
 
-* PHP 5.3.6
-* Serendipity 1.7-alpha1
-* PHPUnit 3.6.12
+* PHP 5.3.6, 5.5.3
+* Serendipity 1.7-alpha1, 2.0-beta4
+* PHPUnit 3.6.12, 3.7.24
 * An active [PSO_SQLITE](http://www.php.net/manual/de/ref.pdo-sqlite.php) PDO driver for PHP
 
 ## Installation
@@ -25,7 +25,7 @@ Unit tests go into a `tests` directory under each plugin directory and should ha
 
 ## Running tests
 
-You can run your unit tests from the Serendipty root directory:
+You can run your unit tests from the Serendipity root directory:
 
 `phpunit -c tests/plugins/phpunit.xml plugins/serendipity_event_foobar/tests/foobarTest.php`
 
